@@ -2,12 +2,13 @@ Config = {}
 Config.Locale = 'es'
 
 Config.ServerName = "SBG Rp"
+Config.Prefix = "[SBG]"
 
 Config.Accounts = {
 	bank = _U('account_bank'),
 	black_money = _U('account_black_money'),
 	money = _U('account_money'),
-	points = 'SBG-Points'
+	points = _U('SBG-Points')
 }
 
 Config.StartingAccountMoney = {bank = 3000, money=2000, points = 0}
