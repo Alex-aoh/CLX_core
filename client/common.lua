@@ -6,4 +6,3 @@ function getSharedObject()
 	return CLX
 end
 
-Lol
